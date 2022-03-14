@@ -78,6 +78,7 @@ const LoginPage = () => {
           label="Password"
           value={password}
           mode="outlined"
+          secureTextEntry={true}
           outlineColor={lightGray}
           activeOutlineColor={lightBlack}
           onChangeText={text => onChangePassword(text)}
